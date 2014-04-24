@@ -1,32 +1,33 @@
 {
-    "name" : "stylus-initial",
-    "version": "0.0.1",
-    "description": "Stylus plugin, polyfilling `initial` keyword.",
-    "homepage": "https://github.com/leny/stylus-initial",
-    "author": {
-        "name": "Leny",
-        "email": "info@flatland.be",
-        "url": "http://leny.me"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/leny/stylus-initial.git"
-    },
-    "bugs": {
-        "url": "https://github.com/leny/stylus-initial/issues"
-    },
-    "licenses": [
-        {
-            "type": "UNLICENSED",
-            "url": "https://github.com/Leny/stylus-initial/blob/master/LICENSE"
-        }
-    ],
-    "scripts": {
-        "test": "./node_modules/.bin/mocha test/ --require should --bail --reporter Spec"
-    },
-    "devDependencies": {
-        "stylus": "~0.43",
-        "should": "*",
-        "mocha": "*"
+  "name": "stylus-initial",
+  "version": "0.0.1",
+  "description": "Stylus plugin, polyfilling `initial` keyword.",
+  "homepage": "https://github.com/leny/stylus-initial",
+  "author": {
+    "name": "Leny",
+    "email": "info@flatland.be",
+    "url": "http://leny.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leny/stylus-initial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leny/stylus-initial/issues"
+  },
+  "licenses": [
+    {
+      "type": "UNLICENSED",
+      "url": "https://github.com/Leny/stylus-initial/blob/master/LICENSE"
     }
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/ --require should --bail --reporter Spec"
+  },
+  "devDependencies": {
+    "stylus": "~0.43",
+    "should": "*",
+    "mocha": "*",
+    "nib": "^1.0.2"
+  }
 }

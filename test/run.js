@@ -4,6 +4,7 @@
 // Module dependencies.
 
 var stylus = require( "stylus" ),
+    nib = require( "nib" ),
     fs = require( "fs" );
 
 // test cases
@@ -29,12 +30,14 @@ describe( "stylus-initial test cases", function() {
 
             var style = stylus( styl ).set( "filename", path );
 
-            style.render( function( err, actual ) {
-                if( err ) {
-                    throw err;
-                }
-                actual.trim().should.equal( css );
-            } );
+            style
+                .use( nib() )
+                .render( function( err, actual ) {
+                    if( err ) {
+                        throw err;
+                    }
+                    actual.trim().should.equal( css );
+                } );
         } );
     } );
 } );
