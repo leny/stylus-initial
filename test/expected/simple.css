@@ -10,10 +10,11 @@ body header {
   position: static;
   width: 320px;
   height: auto;
-  color: red;
+  color: #f00;
   text-align: right;
 }
 body header h2 {
+  height: 50px;
   text-align: left;
   color: black;
 }
