@@ -15,7 +15,7 @@ body header {
 }
 body header h2 {
   height: 50px;
-  text-align: left;
+  text-align: start;
   color: black;
 }
 
