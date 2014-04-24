@@ -140,7 +140,7 @@
     "font-size-adjust": "none",
     "font-stretch": "normal",
     "font-style": "normal",
-    "font-synthesis weight": "style",
+    "font-synthesis": "weight style",
     "font-variant": "normal",
     "font-variant-alternates": "normal",
     "font-variant-caps": "normal",
