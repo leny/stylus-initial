@@ -1,21 +1,14 @@
 body {
-  position: relative;
-  width: 100%;
-  height: auto;
-  background-color: inherit;
-  top: 0px;
-  left: auto;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: 0s 0s all ease;
+  -moz-transition: 0s 0s all ease;
+  -o-transition: 0s 0s all ease;
+  -ms-transition: 0s 0s all ease;
+  transition: 0s 0s all ease;
 }
-body header {
-  position: static;
-  width: 320px;
-  height: auto;
-  color: #f00;
-  text-align: right;
-}
-body header h2 {
-  height: 50px;
-  text-align: start;
-  color: currentColor;
-}
-
