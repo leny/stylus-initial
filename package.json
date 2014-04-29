@@ -2,6 +2,14 @@
   "name": "stylus-initial",
   "version": "0.0.1",
   "description": "Stylus plugin, polyfilling `initial` keyword.",
+  "keywords": [
+    "Stylus",
+    "CSS",
+    "plugin",
+    "polyfill",
+    "initial",
+    "utility"
+  ],
   "homepage": "https://github.com/leny/stylus-initial",
   "author": {
     "name": "Leny",

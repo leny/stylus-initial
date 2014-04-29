@@ -1,6 +1,6 @@
 # stylus-initial
 
-> Stylus plugin, polyfilling `initial` keyword.
+> [Stylus](http://learnboost.github.io/stylus/) plugin, polyfilling `initial` keyword.
 
 [![Build Status](https://secure.travis-ci.org/leny/stylus-initial.png?branch=master)](http://travis-ci.org/leny/stylus-initial) [![NPM version](https://badge.fury.io/js/stylus-initial.png)](http://badge.fury.io/js/stylus-initial) [![Dependency Status](https://david-dm.org/leny/stylus-initial.png)](https://david-dm.org/leny/stylus-initial)
 
