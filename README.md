@@ -6,6 +6,10 @@
 
 * * *
 
+# stylus-initial is in development.
+
+* * *
+
 # IMPORTANT NOTE
 
 > For now, [a bug in nib](https://github.com/visionmedia/nib/pull/252) make stylus rendering fails when passing `initial` or `inherit` value to `opacity`.  
