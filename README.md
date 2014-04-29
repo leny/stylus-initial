@@ -6,6 +6,19 @@
 
 * * *
 
+# IMPORTANT NOTE
+
+> For now, [a bug in nib](https://github.com/visionmedia/nib/pull/252) make stylus rendering fails when passing `initial` or `inherit` value to `opacity`.  
+> Until the bug is fixed, be sure to pass a `1` value to `opacity` instead of `initial`.
+
+* * *
+
+## Installation
+
+```
+npm install stylus-initial
+```
+
 ## Usage
 
 Include **stylus-initial** in your stylus stylesheets with
@@ -14,9 +27,23 @@ Include **stylus-initial** in your stylus stylesheets with
 @import "stylus-initial"
 ```
 
-## Documentation
+Then, simply use the keyword `initial` in your stylus files.
 
-> TODO
+```stylus
+body
+    width initial
+```
+
+Will results, in css : 
+
+```stylus
+body {
+    width: auto;
+}
+```
+
+All the initial values of css properties are stored in `lib/values.json`.  
+Feel free to submit a Pull Request to complete/correct the list.
 
 ## Contributing
 
@@ -26,6 +53,7 @@ Add unit tests for any new or changed functionality.
 ## Release History
 
 * Starting project (*23/04/14*)
+* Initial release : v0.0.1 (*29/04/14*)
 
 ## License
 (Un)licensed under the UNLICENSE
