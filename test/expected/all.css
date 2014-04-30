@@ -79,7 +79,7 @@ body {
   clip: auto;
   clip-path: none;
   clip-rule: nonzero;
-  color: currentColor;
+  color: initial;
   color-interpolation-filters: auto;
   color-profile: auto;
   column-count: auto;
@@ -126,8 +126,8 @@ body {
   flood-opacity: 1;
   flow-from: none;
   flow-into: none;
-  font: normal normal normal normal medium normal serif;
-  font-family: serif;
+  font: normal normal normal normal medium normal initial;
+  font-family: initial;
   font-feature-settings: normal;
   font-kerning: auto;
   font-language-override: normal;
