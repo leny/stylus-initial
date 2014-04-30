@@ -55,7 +55,7 @@ Add unit tests for any new or changed functionality.
 ## Release History
 
 * Starting project (*23/04/14*)
-* Initial release : v0.0.1 (*29/04/14*)
+* Initial release : v0.1.1 (*30/04/14*)
 
 ## License
 (Un)licensed under the UNLICENSE
