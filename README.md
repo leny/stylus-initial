@@ -49,6 +49,8 @@ body {
 All the initial values of css properties are stored in `lib/values.json`.  
 Feel free to submit a Pull Request to complete/correct the list.
 
+**Note:** when a property doesn't have an initial value in the specs, or when the initial value depends on user agents, the value will stay at `initial`.
+
 ## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding style.  
