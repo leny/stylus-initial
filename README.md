@@ -1,8 +1,8 @@
 # stylus-initial
 
-> [Stylus](http://learnboost.github.io/stylus/) plugin, polyfilling `initial` keyword.
+![NPM version](http://img.shields.io/npm/v/stylus-initial.svg) ![Build Status](http://img.shields.io/travis/leny/stylus-initial.svg) ![Dependency Status](https://david-dm.org/leny/stylus-initial.svg) ![Downloads counter](http://img.shields.io/npm/dm/stylus-initial.svg)
 
-[![Build Status](https://secure.travis-ci.org/leny/stylus-initial.png?branch=master)](http://travis-ci.org/leny/stylus-initial) [![NPM version](https://badge.fury.io/js/stylus-initial.png)](http://badge.fury.io/js/stylus-initial) [![Dependency Status](https://david-dm.org/leny/stylus-initial.png)](https://david-dm.org/leny/stylus-initial)
+> [Stylus](http://learnboost.github.io/stylus/) plugin, polyfilling `initial` keyword.
 
 * * *
 
